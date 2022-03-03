@@ -4,8 +4,6 @@
     --grayish-blue: hsl(229, 7%, 55%);
     --dark-blue: hsl(228, 56%, 26%);
     --very-dark-blue: hsl(229, 57%, 11%);
-
-
 }
 
 
@@ -160,8 +158,9 @@ input[type="range"]::-webkit-slider-runnable-track {
     body {
         background-image: url(./images/bg-desktop.png);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: 0 21.4rem;
+        background-size: 100% 50%;
+        background-position-y: bottom ;
+        
         background-color: var(--very-dark-blue);
     }
 
@@ -203,7 +202,6 @@ input[type="range"]::-webkit-slider-runnable-track {
         border-top: 20px solid transparent;
         border-bottom: 20px solid transparent;
         border-right: 20px solid white;
-
     }
 }
 
